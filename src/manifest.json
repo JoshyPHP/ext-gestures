@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "s9e/gestures",
+	"description": "The smallest, fastest gesture extension",
+	"version": "0.1",
+	"permissions": ["<all_urls>"],
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["content.js"]
+		}
+	]
+}
