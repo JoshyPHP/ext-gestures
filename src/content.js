@@ -1,11 +1,11 @@
+/** @define {!number} Mouse button that triggers gestures */
+var GESTURE_BUTTON = 1;
+
+/** @define {!number} Minimum distance to count as a step */
+var DIFF_MIN = 40;
+
 (function (window)
 {
-	/** @define {!number} Mouse button that triggers gestures */
-	var GESTURE_BUTTON = 1;
-
-	/** @define {!number} Minimum distance to count as a step */
-	var DIFF_MIN = 40;
-
 	/** @const */
 	var actions = {
 		'back': function (request)
