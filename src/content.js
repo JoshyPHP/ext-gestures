@@ -26,7 +26,7 @@ var DIFF_MIN = 40;
 		}
 	};
 
-	var gesture = '', lastStep = '';
+	var gesture = '', lastStep = '', startX, startY;
 
 	function mousemove(e)
 	{
